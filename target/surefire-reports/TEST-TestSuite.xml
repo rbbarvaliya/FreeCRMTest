@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="139.876" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="155.134" tests="11" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\ravin\AppData\Local\Temp\surefire6017104520475526637\surefirebooter6296398141918179508.jar C:\Users\ravin\AppData\Local\Temp\surefire6017104520475526637 2020-08-27T17-35-05_234-jvmRun1 surefire8912634009957851362tmp surefire_02170398045676037741tmp"/>
+    <property name="sun.java.command" value="C:\Users\ravin\AppData\Local\Temp\surefire7111318420260752829\surefirebooter3037960852424696979.jar C:\Users\ravin\AppData\Local\Temp\surefire7111318420260752829 2020-10-01T14-08-58_178-jvmRun1 surefire3631950362950487205tmp surefire_04862692159657948717tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\ravin\eclipse-workspace\FreeCRMTest\target\test-classes;C:\Users\ravin\eclipse-workspace\FreeCRMTest\target\classes;C:\Users\ravin\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\ravin\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\ravin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\ravin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\ravin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\ravin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\ravin\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\ravin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\ravin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\ravin\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\ravin\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\ravin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\ravin\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\ravin\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\ravin\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\ravin\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\ravin\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\ravin\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\ravin\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\ravin\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\ravin\.m2\repository\org\testng\testng\7.1.0\testng-7.1.0.jar;C:\Users\ravin\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\ravin\.m2\repository\com\google\inject\guice\4.1.0\guice-4.1.0-no_aop.jar;C:\Users\ravin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\ravin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\ravin\.m2\repository\org\yaml\snakeyaml\1.21\snakeyaml-1.21.jar;C:\Users\ravin\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\ravin\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\ravin\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\ravin\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\ravin\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\ravin\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\ravin\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\ravin\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\ravin\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\ravin\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\ravin\.m2\repository\org\apache\poi\poi-scratchpad\4.1.2\poi-scratchpad-4.1.2.jar;C:\Users\ravin\.m2\repository\org\apache\poi\poi-excelant\4.1.2\poi-excelant-4.1.2.jar;C:\Users\ravin\.m2\repository\org\apache\ant\ant\1.8.2\ant-1.8.2.jar;C:\Users\ravin\.m2\repository\org\apache\ant\ant-launcher\1.8.2\ant-launcher-1.8.2.jar;C:\Users\ravin\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\ravin\.m2\repository\org\apache\poi\openxml4j\1.0-beta\openxml4j-1.0-beta.jar;C:\Users\ravin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\ravin\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\ravin\.m2\repository\log4j\log4j\1.2.8\log4j-1.2.8.jar;C:\Users\ravin\.m2\repository\com\relevantcodes\extentreports\2.41.2\extentreports-2.41.2.jar;C:\Users\ravin\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\ravin\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\ravin\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\ravin\.m2\repository\org\mongodb\mongodb-driver\3.0.4\mongodb-driver-3.0.4.jar;C:\Users\ravin\.m2\repository\org\mongodb\bson\3.0.4\bson-3.0.4.jar;C:\Users\ravin\.m2\repository\org\mongodb\mongodb-driver-core\3.0.4\mongodb-driver-core-3.0.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ravin"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ravin\AppData\Local\Temp\surefire6017104520475526637\surefirebooter6296398141918179508.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ravin\AppData\Local\Temp\surefire7111318420260752829\surefirebooter3037960852424696979.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -60,15 +60,119 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="verifyContactsPageLabel" classname="com.crm.qa.testcases.ContactsPageTest" time="0.204"/>
-  <testcase name="selectSingleContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.525"/>
-  <testcase name="selectMultipleContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="0.953"/>
-  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="2.893"/>
-  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="2.922"/>
-  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="3.135"/>
+  <testcase name="verifyContactsPageLabel" classname="com.crm.qa.testcases.ContactsPageTest" time="0.142"/>
+  <testcase name="selectSingleContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="10.393">
+    <failure message="Unable to locate element: //td[contains(text(),&apos;def 456&apos;)]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MITTALCOMPUTER&apos;, ip: &apos;192.168.2.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200917005511, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 27336, moz:profile: C:\Users\ravin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: 1fd079e2-c24a-4229-aa22-00f2b60fea46&#10;*** Element info: {Using=xpath, value=//td[contains(text(),&apos;def 456&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //td[contains(text(),'def 456')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MITTALCOMPUTER', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200917005511, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 27336, moz:profile: C:\Users\ravin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1fd079e2-c24a-4229-aa22-00f2b60fea46
+*** Element info: {Using=xpath, value=//td[contains(text(),'def 456')]}
+	at com.crm.qa.testcases.ContactsPageTest.selectSingleContactsTest(ContactsPageTest.java:51)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://ui.cogmento.com/'
+Navigated to:'https://ui.cogmento.com/'
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Found Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (1fd079e2-c24a-4229-aa22-00f2b60fea46)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (1fd079e2-c24a-4229-aa22-00f2b60fea46)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find Element By : By.xpath: //span[contains(text(),'Contacts')]
+Found Element By : By.xpath: //span[contains(text(),'Contacts')]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (1fd079e2-c24a-4229-aa22-00f2b60fea46)] -> xpath: //span[contains(text(),'Contacts')]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (1fd079e2-c24a-4229-aa22-00f2b60fea46)] -> xpath: //span[contains(text(),'Contacts')]]
+Trying to find Element By : By.xpath: //td[contains(text(),'def 456')]
+Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: //td[contains(text(),'def 456')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MITTALCOMPUTER', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200917005511, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 27336, moz:profile: C:\Users\ravin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1fd079e2-c24a-4229-aa22-00f2b60fea46
+*** Element info: {Using=xpath, value=//td[contains(text(),'def 456')]}
+]]></system-out>
+    <system-err><![CDATA[1601575748911	Marionette	INFO	Stopped listening on port 63061
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601575751044	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ravin\\AppData\\Local\\Temp\\rust_mozprofilei5t6v3"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601575755088	Marionette	INFO	Listening on port 63115
+1601575755301	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 01, 2020 2:09:15 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="selectMultipleContactsTest" classname="com.crm.qa.testcases.ContactsPageTest" time="10.422">
+    <failure message="Unable to locate element: //td[contains(text(),&apos;abc 123&apos;)]&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;MITTALCOMPUTER&apos;, ip: &apos;192.168.2.18&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200917005511, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 21400, moz:profile: C:\Users\ravin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}&#10;Session ID: bce7fc67-669d-4eb7-abda-1a9312bd0965&#10;*** Element info: {Using=xpath, value=//td[contains(text(),&apos;abc 123&apos;)]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //td[contains(text(),'abc 123')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MITTALCOMPUTER', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200917005511, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 21400, moz:profile: C:\Users\ravin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bce7fc67-669d-4eb7-abda-1a9312bd0965
+*** Element info: {Using=xpath, value=//td[contains(text(),'abc 123')]}
+	at com.crm.qa.testcases.ContactsPageTest.selectMultipleContactsTest(ContactsPageTest.java:58)
+</failure>
+    <system-out><![CDATA[Before navigating to: 'https://ui.cogmento.com/'
+Navigated to:'https://ui.cogmento.com/'
+Trying to find Element By : By.name: email
+Found Element By : By.name: email
+Trying to find Element By : By.name: password
+Found Element By : By.name: password
+Trying to find Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Found Element By : By.xpath: //div[@class='ui fluid large blue submit button']
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (bce7fc67-669d-4eb7-abda-1a9312bd0965)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (bce7fc67-669d-4eb7-abda-1a9312bd0965)] -> xpath: //div[@class='ui fluid large blue submit button']]
+Trying to find Element By : By.xpath: //span[contains(text(),'Contacts')]
+Found Element By : By.xpath: //span[contains(text(),'Contacts')]
+Trying to click on: [[FirefoxDriver: firefox on WINDOWS (bce7fc67-669d-4eb7-abda-1a9312bd0965)] -> xpath: //span[contains(text(),'Contacts')]]
+Clicked on: [[FirefoxDriver: firefox on WINDOWS (bce7fc67-669d-4eb7-abda-1a9312bd0965)] -> xpath: //span[contains(text(),'Contacts')]]
+Trying to find Element By : By.xpath: //td[contains(text(),'abc 123')]
+Exception occured: org.openqa.selenium.NoSuchElementException: Unable to locate element: //td[contains(text(),'abc 123')]
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MITTALCOMPUTER', ip: '192.168.2.18', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 81.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200917005511, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 21400, moz:profile: C:\Users\ravin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: bce7fc67-669d-4eb7-abda-1a9312bd0965
+*** Element info: {Using=xpath, value=//td[contains(text(),'abc 123')]}
+]]></system-out>
+    <system-err><![CDATA[1601575769956	Marionette	INFO	Stopped listening on port 63115
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1601575771401	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ravin\\AppData\\Local\\Temp\\rust_mozprofileoVcHIi"
+Can't find symbol 'eglSwapBuffersWithDamageEXT'.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: SearchCache: "_readCacheFile: Error reading cache file:" (new Error("", "(unknown module)"))
+1601575775015	Marionette	INFO	Listening on port 63172
+1601575775100	Marionette	WARN	TLS certificate errors will be ignored for this session
+Oct 01, 2020 2:09:35 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="2.944"/>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="2.923"/>
+  <testcase name="validateCreateNewContact" classname="com.crm.qa.testcases.ContactsPageTest" time="2.936"/>
   <testcase name="verifyHomePageTitleTest" classname="com.crm.qa.testcases.HomePageTest" time="0"/>
-  <testcase name="verifyUserNameTest" classname="com.crm.qa.testcases.HomePageTest" time="0.418"/>
-  <testcase name="verifycontactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="0.858"/>
-  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.013"/>
-  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.64"/>
+  <testcase name="verifyUserNameTest" classname="com.crm.qa.testcases.HomePageTest" time="1.226"/>
+  <testcase name="verifycontactsLinkTest" classname="com.crm.qa.testcases.HomePageTest" time="1.356"/>
+  <testcase name="loginPageTitleTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.03"/>
+  <testcase name="loginTest" classname="com.crm.qa.testcases.LoginPageTest" time="0.694"/>
 </testsuite>

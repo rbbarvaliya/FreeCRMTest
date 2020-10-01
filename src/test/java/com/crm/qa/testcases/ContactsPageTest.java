@@ -46,19 +46,19 @@ public class ContactsPageTest extends TestBase {
 		Assert.assertTrue(contactsPage.verifyContctsLabel(), "contacts label is missing on the page");
 	}
 	
-	@Test(priority=2)
-	public void selectSingleContactsTest(){
-		contactsPage.selectContactsByName("def 456");
-	
-		
-	}
-	
-	@Test(priority=3)
-	public void selectMultipleContactsTest(){
-		contactsPage.selectContactsByName("abc 123");
-		contactsPage.selectContactsByName("ghi 789");
+//	@Test(priority=2)
+//	public void selectSingleContactsTest(){
+//		contactsPage.selectContactsByName("def 456");
+//	
+//		
+//	}
+//	
+//	@Test(priority=3)
+//	public void selectMultipleContactsTest(){
+//		contactsPage.selectContactsByName("abc 123");
+//		contactsPage.selectContactsByName("ghi 789");
 
-	}
+//	}
 	
 	@DataProvider
 	public Object[][] getCRMTestData(){

@@ -22,6 +22,7 @@ public class LoginPageTest extends TestBase{
 	@BeforeMethod 
 	public void setUp() {
 		initialization ();
+		log.info("*************************LoginPageBrowser->Starts******************************");
 	    loginPage = new LoginPage();
 		
 	}
@@ -41,6 +42,7 @@ public class LoginPageTest extends TestBase{
 
 	@AfterMethod 
 	public void tearDown() {
+		log.info("***************************LoginPageBrowser->Stops************************************");
 		driver.quit();
 	}
 }

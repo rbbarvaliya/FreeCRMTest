@@ -19,7 +19,7 @@ public class LoginPageTest extends TestBase{
 		
 	}
 	
-	@BeforeMethod 
+	@BeforeMethod (alwaysRun = true)
 	public void setUp() {
 		initialization ();
 		log.info("*************************LoginPageBrowser->Starts******************************");
@@ -33,14 +33,14 @@ public class LoginPageTest extends TestBase{
 		Assert.assertEquals(title, "Cogmento CRM");
 	}
 	
-	@Test (priority=2)
+	@Test (priority=2,groups={"smoke","sanity"})
 	public void loginTest() {
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
 	
 
-	@AfterMethod 
+	@AfterMethod (alwaysRun = true)
 	public void tearDown() {
 		log.info("***************************LoginPageBrowser->Stops************************************");
 		driver.quit();

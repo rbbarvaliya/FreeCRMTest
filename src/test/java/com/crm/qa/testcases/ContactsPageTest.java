@@ -28,10 +28,11 @@ public class ContactsPageTest extends TestBase {
 	}
 	
 	
-	@BeforeMethod
+	@BeforeMethod (alwaysRun = true)
 	public void setUp() throws InterruptedException {
 		
 		initialization();
+		log.info("*************************ContactsPageBrowser->Starts*****************************");
 		testUtil = new TestUtil();
 		contactsPage = new ContactsPage();
 		loginPage = new LoginPage();
@@ -41,7 +42,7 @@ public class ContactsPageTest extends TestBase {
 		contactsPage = homePage.clickOnContactsLink();
 	}
 	
-	@Test(priority=1)
+	@Test(priority=1,groups="smoke")
 	public void verifyContactsPageLabel(){
 		Assert.assertTrue(contactsPage.verifyContctsLabel(), "contacts label is missing on the page");
 	}
@@ -67,7 +68,7 @@ public class ContactsPageTest extends TestBase {
 	}
 	
 	
-	@Test(priority=4, dataProvider="getCRMTestData")
+	@Test(priority=4, dataProvider="getCRMTestData", groups="sanity")
 	public void validateCreateNewContact(String firstName, String lastName, String company){
 		homePage.clickOnNewContactLink();
 		//contactsPage.createNewContact("Mr.", "Tom", "Peter", "Google");
@@ -76,8 +77,9 @@ public class ContactsPageTest extends TestBase {
 	
 	
 
-	@AfterMethod
+	@AfterMethod (alwaysRun = true)
 	public void tearDown(){
+		log.info("***************************ContactsPageBrowser->Stops**********************************");
 		driver.quit();
 	}
 	

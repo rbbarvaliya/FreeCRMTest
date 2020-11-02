@@ -9,7 +9,7 @@
  	<test name="FREE CRM App Test Cases">
  	<groups>
       <run>
-      <include name="sanity"></include>
+      <include name="smoke"></include>
       </run>
       </groups>
 		 <classes>

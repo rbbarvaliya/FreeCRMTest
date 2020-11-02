@@ -24,8 +24,9 @@ public class HomePageTest extends TestBase {
 	//@test- execute cases
 	//after each test case - close browser
 	
-	@BeforeMethod 
+	@BeforeMethod (alwaysRun = true )
 	public void setUp() {
+		log.info("*************************HomePageBrowser->Starts*****************************");
 		initialization ();
 	    loginPage = new LoginPage();
 	    contactsPage = new ContactsPage();
@@ -38,18 +39,19 @@ public class HomePageTest extends TestBase {
 		Assert.assertEquals(homePageTitle, "Cogmento CRM", "Home page title not matched");
 	}
 	
-	@Test(priority=2)
+	@Test(priority=2,groups="smoke")
 	public void verifyUserNameTest() {
 		Assert.assertTrue(homePage.verifyCorrectUserName());
 	}
 	
-	@Test(priority=3)
+	@Test(priority=3,groups="sanity")
 	public void verifycontactsLinkTest() {
 		contactsPage = homePage.clickOnContactsLink();
 	}
 	
-	@AfterMethod 
+	@AfterMethod (alwaysRun = true)
 	public void tearDown() {
+		log.info("***************************HomePageBrowser->Stops**********************************");
 		driver.quit();
 	}
 	

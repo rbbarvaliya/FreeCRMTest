@@ -24,6 +24,9 @@ public class TestUtil extends TestBase  {
 	public static String TESTDATA_SHEET_PATH = "C:\\Users\\ravin\\eclipse-workspace\\FreeCRMTest\\"
 			+ "src\\main\\java\\com\\crm\\qa\\testdata\\FreeCrmTestData.xlsx";
 	
+	public static String CONFIG_PROPERTIES_PATH = "C:\\Users\\ravin\\eclipse-workspace\\FreeCRMTest\\"
+			+ "src\\main\\java\\com\\crm\\qa\\config\\config.properties";
+	
 	static Workbook book;
 	static Sheet sheet;
 	

@@ -78,3 +78,39 @@
 2020-11-02 13:39:51,406 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2020-11-02 13:39:51,407 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2020-11-02 13:39:51,407 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ravin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-11-02 15:42:53,933  INFO [main] Log4jforFREECRM:25 - *************************LoginPageBrowser->Starts******************************
+2020-11-02 15:42:55,161  INFO [main] Log4jforFREECRM:45 - ***************************LoginPageBrowser->Stops************************************
+2020-11-02 15:42:56,078  INFO [main] Log4jforFREECRM:29 - *************************HomePageBrowser->Starts*****************************
+2020-11-02 15:43:05,360  INFO [main] Log4jforFREECRM:54 - ***************************HomePageBrowser->Stops**********************************
+2020-11-02 15:43:14,210  INFO [main] Log4jforFREECRM:35 - *************************ContactsPageBrowser->Starts*****************************
+2020-11-02 15:43:17,532  INFO [main] Log4jforFREECRM:82 - ***************************ContactsPageBrowser->Stops**********************************
+2020-11-02 15:43:19,376 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-11-02 15:43:19,380 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-11-02 15:43:19,386 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-11-02 15:43:19,390 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-11-02 15:43:19,392 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ravin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-11-02 15:43:20,224 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-11-02 15:43:20,227 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-11-02 15:43:20,229 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-11-02 15:43:20,231 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-11-02 15:43:20,232 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ravin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-11-02 18:40:53,751  INFO [main] Log4jforFREECRM:25 - *************************LoginPageBrowser->Starts******************************
+2020-11-02 18:40:54,127  INFO [main] Log4jforFREECRM:45 - ***************************LoginPageBrowser->Stops************************************
+2020-11-02 18:40:54,763  INFO [main] Log4jforFREECRM:29 - *************************HomePageBrowser->Starts*****************************
+2020-11-02 18:41:04,385  INFO [main] Log4jforFREECRM:54 - ***************************HomePageBrowser->Stops**********************************
+2020-11-02 18:41:13,203  INFO [main] Log4jforFREECRM:35 - *************************ContactsPageBrowser->Starts*****************************
+2020-11-02 18:41:16,220  INFO [main] Log4jforFREECRM:82 - ***************************ContactsPageBrowser->Stops**********************************
+2020-11-02 18:41:17,337 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-11-02 18:41:17,339 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-11-02 18:41:17,342 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-11-02 18:41:17,344 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-11-02 18:41:17,346 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ravin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-11-02 18:41:17,758 DEBUG [main] cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+2020-11-02 18:41:17,759 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+2020-11-02 18:41:17,760 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+2020-11-02 18:41:17,762 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+2020-11-02 18:41:17,763 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ravin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-11-18 16:50:49,541  INFO [main] Log4jforFREECRM:25 - *************************LoginPageBrowser->Starts******************************
+2020-11-18 16:50:49,600  INFO [main] Log4jforFREECRM:45 - ***************************LoginPageBrowser->Stops************************************
+2020-11-18 16:50:58,680  INFO [main] Log4jforFREECRM:25 - *************************LoginPageBrowser->Starts******************************
+2020-11-18 16:50:59,082  INFO [main] Log4jforFREECRM:45 - ***************************LoginPageBrowser->Stops************************************

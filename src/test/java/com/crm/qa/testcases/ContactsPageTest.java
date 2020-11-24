@@ -20,13 +20,10 @@ public class ContactsPageTest extends TestBase {
 	ContactsPage contactsPage;
 	
 	String sheetName = "contacts";
-	
 	   
 	public ContactsPageTest(){
-			super();
-			
+			super();	
 	}
-	
 	
 	@BeforeMethod (alwaysRun = true)
 	public void setUp() throws InterruptedException {
@@ -37,8 +34,6 @@ public class ContactsPageTest extends TestBase {
 		contactsPage = new ContactsPage();
 		loginPage = new LoginPage();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
-		//TestUtil.runTimeInfo("error", "login successful");
-		///testUtil.switchToFrame();
 		contactsPage = homePage.clickOnContactsLink();
 	}
 	
@@ -51,14 +46,12 @@ public class ContactsPageTest extends TestBase {
 //	public void selectSingleContactsTest(){
 //		contactsPage.selectContactsByName("def 456");
 //	
-//		
 //	}
 //	
 //	@Test(priority=3)
 //	public void selectMultipleContactsTest(){
 //		contactsPage.selectContactsByName("abc 123");
 //		contactsPage.selectContactsByName("ghi 789");
-
 //	}
 	
 	@DataProvider
@@ -67,22 +60,17 @@ public class ContactsPageTest extends TestBase {
 		return data;
 	}
 	
-	
 	@Test(priority=4, dataProvider="getCRMTestData", groups="sanity")
 	public void validateCreateNewContact(String firstName, String lastName, String company){
 		homePage.clickOnNewContactLink();
-		//contactsPage.createNewContact("Mr.", "Tom", "Peter", "Google");
 		contactsPage.creatNewContact(firstName, lastName, company);
 	}
-	
-	
 
 	@AfterMethod (alwaysRun = true)
 	public void tearDown(){
 		log.info("***************************ContactsPageBrowser->Stops**********************************");
 		driver.quit();
 	}
-	
 	
 	
 }

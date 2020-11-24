@@ -12,7 +12,7 @@
 			<define name="smoke1">
 				<include name="smoke"></include>
 			</define>
-			<define name="sanit1">
+			<define name="sanity1">
 				<include name="sanity"></include>
 			</define>
 			<run>

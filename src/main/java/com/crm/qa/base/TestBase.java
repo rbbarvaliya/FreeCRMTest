@@ -1,12 +1,10 @@
 package com.crm.qa.base;
 
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
-
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
@@ -28,8 +26,7 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\ravin\\eclipse-workspace\\FreeCRMTest\\src\\"
-					+ "main\\java\\com\\crm\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream(TestUtil.CONFIG_PROPERTIES_PATH);
 			prop.load(ip);	
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

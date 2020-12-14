@@ -146,3 +146,21 @@
 2020-12-10 18:28:41,750 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
 2020-12-10 18:28:41,752 DEBUG [main] cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
 2020-12-10 18:28:41,753 DEBUG [main] cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/ravin/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+2020-12-11 12:22:44,244  INFO [main] Log4jforFREECRM:32 - *************************ContactsPageBrowser->Starts*****************************
+2020-12-11 12:22:48,982  INFO [main] Log4jforFREECRM:71 - ***************************ContactsPageBrowser->Stops**********************************
+2020-12-11 12:23:03,588  INFO [main] Log4jforFREECRM:32 - *************************ContactsPageBrowser->Starts*****************************
+2020-12-11 12:23:15,737  INFO [main] Log4jforFREECRM:71 - ***************************ContactsPageBrowser->Stops**********************************
+2020-12-11 12:23:26,386  INFO [main] Log4jforFREECRM:32 - *************************ContactsPageBrowser->Starts*****************************
+2020-12-11 12:23:41,625  INFO [main] Log4jforFREECRM:71 - ***************************ContactsPageBrowser->Stops**********************************
+2020-12-11 12:23:54,866  INFO [main] Log4jforFREECRM:32 - *************************ContactsPageBrowser->Starts*****************************
+2020-12-11 12:24:08,535  INFO [main] Log4jforFREECRM:71 - ***************************ContactsPageBrowser->Stops**********************************
+2020-12-11 12:24:10,062  INFO [main] Log4jforFREECRM:29 - *************************HomePageBrowser->Starts*****************************
+2020-12-11 12:24:23,251  INFO [main] Log4jforFREECRM:54 - ***************************HomePageBrowser->Stops**********************************
+2020-12-11 12:24:24,191  INFO [main] Log4jforFREECRM:29 - *************************HomePageBrowser->Starts*****************************
+2020-12-11 12:24:38,511  INFO [main] Log4jforFREECRM:54 - ***************************HomePageBrowser->Stops**********************************
+2020-12-11 12:24:39,939  INFO [main] Log4jforFREECRM:29 - *************************HomePageBrowser->Starts*****************************
+2020-12-11 12:24:56,416  INFO [main] Log4jforFREECRM:54 - ***************************HomePageBrowser->Stops**********************************
+2020-12-11 12:25:09,016  INFO [main] Log4jforFREECRM:25 - *************************LoginPageBrowser->Starts******************************
+2020-12-11 12:25:09,038  INFO [main] Log4jforFREECRM:43 - ***************************LoginPageBrowser->Stops************************************
+2020-12-11 12:25:20,040  INFO [main] Log4jforFREECRM:25 - *************************LoginPageBrowser->Starts******************************
+2020-12-11 12:25:21,535  INFO [main] Log4jforFREECRM:43 - ***************************LoginPageBrowser->Stops************************************

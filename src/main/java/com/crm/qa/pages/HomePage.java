@@ -14,15 +14,19 @@ public class HomePage extends TestBase{
 	WebElement userNameLabel;
 
 	@FindBy(xpath="//span[contains(text(),'Contacts')]")
+	@CacheLookup
 	WebElement contactslink;
 	
 	@FindBy(xpath="//div[@id='main-nav']//a[5]")
+	@CacheLookup
 	WebElement dealslink;
 	
 	@FindBy(xpath="//body//a[6]")
+	@CacheLookup
 	WebElement taskslink;
 	
 	@FindBy(xpath="//button[contains(text(),'New')]")
+	@CacheLookup
 	WebElement newContactLink;
 	
 	//Initialization 
